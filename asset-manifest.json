@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Wawe/static/css/main.7acaea2f.css",
+    "main.js": "/Wawe/static/js/main.18186f12.js",
+    "static/media/Main.jpg": "/Wawe/static/media/Main.aa73a2423d271134b317.jpg",
+    "index.html": "/Wawe/index.html",
+    "static/media/sprite.svg": "/Wawe/static/media/sprite.f7c46b3e17023481055c9d5d1ee8dfdf.svg",
+    "main.7acaea2f.css.map": "/Wawe/static/css/main.7acaea2f.css.map",
+    "main.18186f12.js.map": "/Wawe/static/js/main.18186f12.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7acaea2f.css",
+    "static/js/main.18186f12.js"
+  ]
+}
