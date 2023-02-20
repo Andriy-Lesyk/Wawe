@@ -1,6 +1,7 @@
 import Header from './Header/Header';
 import AboutSchoool from './AboutSchool/AboutSchoool';
 import GetFromSchool from './GetFromSchool/GetFromSchool';
+import GetTop from './GetTop/GetTop';
 
 export const App = () => {
   return (
@@ -8,6 +9,7 @@ export const App = () => {
       <Header />
       <AboutSchoool />
       <GetFromSchool />
+      <GetTop />
     </div>
   );
 };
