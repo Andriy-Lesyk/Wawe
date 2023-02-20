@@ -40,6 +40,10 @@ export const NavItemName = styled.span`
   font-weight: 400;
   font-size: 24px;
   color: white;
+  padding-bottom: 5px;
+  &:hover {
+    border-bottom: 1px solid #00b2a0;
+  }
 `;
 export const Title = styled.h1`
   font-family: 'Raleway';
