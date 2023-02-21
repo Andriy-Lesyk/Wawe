@@ -1,9 +1,11 @@
 {
   "files": {
     "main.css": "/Wawe/static/css/main.7acaea2f.css",
-    "main.js": "/Wawe/static/js/main.c778c547.js",
+    "main.js": "/Wawe/static/js/main.42ef2b52.js",
+    "static/media/Wawe.mp4": "/Wawe/static/media/Wawe.cf9031ddb31142a1b18a.mp4",
     "static/media/Main.jpg": "/Wawe/static/media/Main.aa73a2423d271134b317.jpg",
     "static/media/Top.jpg": "/Wawe/static/media/Top.3505b4d383cd07b748a8.jpg",
+    "static/media/Poster.jpg": "/Wawe/static/media/Poster.46be29345b38f90b606a.jpg",
     "static/media/Gal1.jpg": "/Wawe/static/media/Gal1.daa96f38bdda95c9863b.jpg",
     "static/media/Gal6.jpg": "/Wawe/static/media/Gal6.1d07b11a88ead3c0e18d.jpg",
     "static/media/Gal2.jpg": "/Wawe/static/media/Gal2.1c15a4adcbcbc29f4e92.jpg",
@@ -12,10 +14,10 @@
     "static/media/sprite.svg": "/Wawe/static/media/sprite.f506764aa4e82b3fa361bec6b543fae2.svg",
     "index.html": "/Wawe/index.html",
     "main.7acaea2f.css.map": "/Wawe/static/css/main.7acaea2f.css.map",
-    "main.c778c547.js.map": "/Wawe/static/js/main.c778c547.js.map"
+    "main.42ef2b52.js.map": "/Wawe/static/js/main.42ef2b52.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.c778c547.js"
+    "static/js/main.42ef2b52.js"
   ]
 }
