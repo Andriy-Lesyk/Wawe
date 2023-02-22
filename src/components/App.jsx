@@ -6,6 +6,8 @@ import DontHesitate from './DontHesitate/DontHesitate';
 import Video from './Video/Video';
 import Blog from './Blog/Blog';
 import OurTeam from './OurTeam/OurTeam';
+import Servicies from './Servicies/Servicies';
+import Map from './Map/Map';
 
 export const App = () => {
   return (
@@ -18,6 +20,8 @@ export const App = () => {
       <Video />
       <Blog />
       <OurTeam />
+      <Servicies />
+      <Map />
     </div>
   );
 };

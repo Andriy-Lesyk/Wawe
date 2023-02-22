@@ -21,6 +21,8 @@ export const SectionTitle = styled.h2`
   color: #01353e;
 `;
 export const ImgList = styled.ul`
+  margin: 0;
+  padding: 0;
   display: flex;
 `;
 export const ImgItemCart = styled.li`
