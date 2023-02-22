@@ -1,26 +1,27 @@
 {
   "files": {
     "main.css": "/Wawe/static/css/main.7acaea2f.css",
-    "main.js": "/Wawe/static/js/main.bbbe1c5e.js",
+    "main.js": "/Wawe/static/js/main.c8e37d68.js",
     "static/media/Wawe.mp4": "/Wawe/static/media/Wawe.cf9031ddb31142a1b18a.mp4",
     "static/media/Main.jpg": "/Wawe/static/media/Main.aa73a2423d271134b317.jpg",
     "static/media/Top.jpg": "/Wawe/static/media/Top.3505b4d383cd07b748a8.jpg",
     "static/media/Poster.jpg": "/Wawe/static/media/Poster.46be29345b38f90b606a.jpg",
     "static/media/Gal1.jpg": "/Wawe/static/media/Gal1.daa96f38bdda95c9863b.jpg",
     "static/media/Gal6.jpg": "/Wawe/static/media/Gal6.1d07b11a88ead3c0e18d.jpg",
+    "static/media/Map.jpg": "/Wawe/static/media/Map.cd5ddea550add3d835e5.jpg",
     "static/media/Cart3.jpg": "/Wawe/static/media/Cart3.0f1202e19e8f73638683.jpg",
     "static/media/Cart1.jpg": "/Wawe/static/media/Cart1.166caa4319d02315931e.jpg",
     "static/media/Cart2.jpg": "/Wawe/static/media/Cart2.19b1418aa77bb89c308d.jpg",
     "static/media/Gal2.jpg": "/Wawe/static/media/Gal2.1c15a4adcbcbc29f4e92.jpg",
     "static/media/Gal4.jpg": "/Wawe/static/media/Gal4.d1d4b4ed74157e5ed8e8.jpg",
     "static/media/Gal3.jpg": "/Wawe/static/media/Gal3.c6b8f563de907d65cd1e.jpg",
-    "static/media/sprite.svg": "/Wawe/static/media/sprite.f506764aa4e82b3fa361bec6b543fae2.svg",
+    "static/media/sprite.svg": "/Wawe/static/media/sprite.82f89f1015b80b49ccd1404331fca460.svg",
     "index.html": "/Wawe/index.html",
     "main.7acaea2f.css.map": "/Wawe/static/css/main.7acaea2f.css.map",
-    "main.bbbe1c5e.js.map": "/Wawe/static/js/main.bbbe1c5e.js.map"
+    "main.c8e37d68.js.map": "/Wawe/static/js/main.c8e37d68.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.bbbe1c5e.js"
+    "static/js/main.c8e37d68.js"
   ]
 }
