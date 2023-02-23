@@ -72,4 +72,8 @@ export const GallaryBtn = styled.button`
   color: #242121;
   display: block;
   margin: 50px auto 0;
+  &:hover,
+  &:focus {
+    border: 2px solid;
+  }
 `;

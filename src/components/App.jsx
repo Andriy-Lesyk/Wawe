@@ -8,6 +8,8 @@ import Blog from './Blog/Blog';
 import OurTeam from './OurTeam/OurTeam';
 import Servicies from './Servicies/Servicies';
 import Map from './Map/Map';
+import Application from './Application/Application';
+import Footer from './Footer/Footer';
 
 export const App = () => {
   return (
@@ -22,6 +24,8 @@ export const App = () => {
       <OurTeam />
       <Servicies />
       <Map />
+      <Application />
+      <Footer />
     </div>
   );
 };

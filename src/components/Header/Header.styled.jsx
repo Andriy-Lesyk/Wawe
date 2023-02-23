@@ -12,6 +12,10 @@ export const Img = styled.img`
   width: 60px;
   height: 63px;
   margin-right: 185px;
+  &:hover,
+  &:focus {
+    border-bottom: 2px solid red;
+  }
 `;
 
 export const Navigation = styled.nav``;

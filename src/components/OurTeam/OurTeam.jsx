@@ -26,6 +26,7 @@ function OurTeam() {
             <use href={sprite + '#Slash'} />
           </Slash>
         </SectionTitleBox>
+
         <ImgList>
           <ImgItemCart>
             <CartImg src={Cart1} />

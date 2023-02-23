@@ -7,10 +7,10 @@ export const Section = styled.section`
   width: 1920px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 `;
 export const SectionTitleBox = styled.div`
   display: flex;
+  align-self: center;
 `;
 export const SectionTitle = styled.h2`
   margin: 0;
@@ -26,6 +26,7 @@ export const ServiciesList = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
   margin-top: 183px;
 `;
 export const ServiceCard = styled.li`
@@ -37,9 +38,6 @@ export const ServiceCard = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
-  &:not(:last-child) {
-    margin-right: 60px;
-  }
 `;
 export const CardName = styled.h3`
   margin: 35px 0 58px;

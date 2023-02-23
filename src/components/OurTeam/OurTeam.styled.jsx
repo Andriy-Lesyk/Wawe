@@ -4,11 +4,11 @@ export const Section = styled.section`
   padding-bottom: 200px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 `;
 export const SectionTitleBox = styled.div`
   margin-bottom: 183px;
   display: flex;
+  align-self: center;
 `;
 export const SectionTitle = styled.h2`
   margin: 0;
@@ -24,15 +24,13 @@ export const ImgList = styled.ul`
   margin: 0;
   padding: 0;
   display: flex;
+  justify-content: space-between;
 `;
 export const ImgItemCart = styled.li`
   display: flex;
   flex-direction: column;
   align-items: center;
   list-style-type: none;
-  &:not(:last-child) {
-    margin-right: 105px;
-  }
 `;
 export const CartImg = styled.img``;
 export const CartName = styled.span`
