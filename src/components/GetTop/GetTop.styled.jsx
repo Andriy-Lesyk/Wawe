@@ -1,8 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.section`
-  margin: 332px auto 0;
-  width: 1920px;
+  margin-top: 332px;
 `;
 export const GetTopPictureBox = styled.div`
   display: flex;
@@ -50,6 +49,9 @@ export const GetTopImg = styled.img`
 `;
 export const GalleryBox = styled.div`
   padding: 200px 360px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 `;
 export const Gallary = styled.div``;
 export const GallaryImg = styled.img`
@@ -71,9 +73,33 @@ export const GallaryBtn = styled.button`
   line-height: 18px;
   color: #242121;
   display: block;
-  margin: 50px auto 0;
+  margin-top: 50px;
   &:hover,
   &:focus {
     border: 2px solid;
+  }
+`;
+export const ChooseImgList = styled.ul`
+  padding: 0;
+  margin: 0;
+  margin: 183px 0 50px;
+  display: flex;
+  align-self: flex-start;
+`;
+export const ChooseImgItem = styled.li`
+  margin: 0;
+  list-style-type: none;
+  &:not(:last-child) {
+    margin-right: 20px;
+  }
+  font-family: 'Roboto Condensed';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  letter-spacing: 0.6px;
+  color: #242121;
+  &:hover,
+  &:focus {
+    color: #00b2a0;
   }
 `;

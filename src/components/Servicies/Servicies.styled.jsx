@@ -3,8 +3,6 @@ import styled from '@emotion/styled';
 export const Section = styled.section`
   padding: 200px 360px;
   background: #f8f8f8;
-  margin: 0 auto;
-  width: 1920px;
   display: flex;
   flex-direction: column;
 `;

@@ -11,6 +11,8 @@ import {
   GalleryBox,
   GallaryImg,
   GallaryBtn,
+  ChooseImgList,
+  ChooseImgItem,
 } from './GetTop.styled';
 import { Slash } from 'components/AboutSchool/AboutSchool.styled';
 import sprite from '../../images/sprite.svg';
@@ -59,6 +61,18 @@ function GetTop() {
         <GetTopImg src={Top} alt="next" />
       </GetTopPictureBox>
       <GalleryBox>
+        <GetTopTitleBox>
+          <GetTopTitle>ГАЛЕРЕЯ</GetTopTitle>
+          <Slash>
+            <use href={sprite + '#Slash'} />
+          </Slash>
+        </GetTopTitleBox>
+        <ChooseImgList>
+          <ChooseImgItem>ВСЕ</ChooseImgItem>
+          <ChooseImgItem>ТУРИСТЫ</ChooseImgItem>
+          <ChooseImgItem>ПРИРОДА</ChooseImgItem>
+          <ChooseImgItem>ПРОФИ</ChooseImgItem>
+        </ChooseImgList>
         <Gallary>
           <GallaryImg src={Gal1} />
           <GallaryImg src={Gal2} />

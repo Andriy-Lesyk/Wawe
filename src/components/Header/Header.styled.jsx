@@ -2,10 +2,10 @@ import styled from '@emotion/styled';
 import Main from '../../images/Main.jpg';
 
 export const Section = styled.section`
-  width: 1920px;
   height: 1080px;
   margin: 0 auto;
   background-image: url(${Main});
+  background-size: cover;
 `;
 
 export const Img = styled.img`
@@ -72,4 +72,10 @@ export const TitleBox = styled.div`
 export const TextBox = styled.div`
   margin: 0 auto;
   width: max-content;
+`;
+export const Svg = styled.svg`
+  display: block;
+  margin: 315px auto 0;
+  width: 20px;
+  height: 69px;
 `;

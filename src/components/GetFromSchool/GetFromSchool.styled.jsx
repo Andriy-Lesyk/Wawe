@@ -5,8 +5,6 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 1920px;
-  margin: 0 auto;
   background-color: #f8f8f8;
 `;
 

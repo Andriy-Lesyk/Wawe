@@ -9,7 +9,6 @@ import {
   Vid,
 } from './Video.styled';
 import Wawe from '../../images/Wawe.mp4';
-
 import Post from '../../images/Poster.jpg';
 
 function Video() {

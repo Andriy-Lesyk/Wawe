@@ -1,8 +1,6 @@
 import styled from '@emotion/styled';
 
 export const Footr = styled.footer`
-  margin: 0 auto;
-  width: 1920px;
   height: 200px;
   display: flex;
   align-items: center;

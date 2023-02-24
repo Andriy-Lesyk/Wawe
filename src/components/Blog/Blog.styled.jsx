@@ -1,25 +1,25 @@
 import styled from '@emotion/styled';
-import Main from '../../images/Main.jpg';
+import Blog from '../../images/Blog.jpg';
 
 export const Section = styled.section`
   display: flex;
   flex-direction: column;
-  align-items: center;
   padding-bottom: 200px;
 `;
 export const ImgBox = styled.div`
-  background-image: url(${Main});
+  background-image: url(${Blog});
+  background-size: cover;
   background-position: bottom;
   display: flex;
   justify-content: end;
   align-items: center;
-  width: 1920px;
   height: 800px;
 `;
 
 export const SectionTitleBox = styled.div`
   display: flex;
   margin-bottom: 200px;
+  align-self: center;
 `;
 export const SectionTitle = styled.h2`
   margin: 0;

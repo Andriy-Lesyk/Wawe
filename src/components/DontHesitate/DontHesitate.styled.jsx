@@ -6,8 +6,6 @@ export const Section = styled.section`
   flex-direction: column;
   background: #f8f8f8;
   align-items: center;
-  width: 1920px;
-  margin: 0 auto;
 `;
 export const MainText = styled.p`
   margin: 0;

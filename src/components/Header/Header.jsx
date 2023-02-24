@@ -13,7 +13,9 @@ import {
   Title,
   TextBox,
   Text,
+  Svg,
 } from './Header.styled';
+import sprite from '../../images/sprite.svg';
 
 function Header() {
   return (
@@ -61,6 +63,9 @@ function Header() {
       <TextBox>
         <Text>Школа серфинга на канарских Островах</Text>
       </TextBox>
+      <Svg>
+        <use href={sprite + '#Icon'} />
+      </Svg>
     </Section>
   );
 }

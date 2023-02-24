@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 
 export const VideoBox = styled.div`
+  position: relative;
   padding: 200px 0;
 `;
 export const StatListBox = styled.div`
