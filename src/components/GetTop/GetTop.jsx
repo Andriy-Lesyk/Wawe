@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import {
   Section,
   GetTopPictureBox,
@@ -17,6 +17,7 @@ import {
 import { Slash } from 'components/AboutSchool/AboutSchool.styled';
 import sprite from '../../images/sprite.svg';
 import Top from '../../images/Top.jpg';
+import data from './top.json';
 import Gal1 from '../../images/Gal1.jpg';
 import Gal2 from '../../images/Gal2.jpg';
 import Gal3 from '../../images/Gal3.jpg';
@@ -24,7 +25,31 @@ import Gal4 from '../../images/Gal4.jpg';
 import Gal5 from '../../images/Gal5.jpg';
 import Gal6 from '../../images/Gal6.jpg';
 
+const arr = [];
+arr.push(Gal1, Gal2, Gal3, Gal4, Gal5, Gal6);
+data.map((x, i) => (x.src = arr[i]));
+
 function GetTop() {
+  const [dat, setData] = useState(data);
+  const [type, setType] = useState('all');
+  const ImgFilter = e => {
+    if (e.target.textContent === 'ТУРИСТЫ') {
+      const dataNew = data.filter(x => x.type === 'tour');
+      setData(dataNew);
+      setType('tour');
+    } else if (e.target.textContent === 'ПРИРОДА') {
+      const dataNew = data.filter(x => x.type === 'natur');
+      setData(dataNew);
+      setType('natur');
+    } else if (e.target.textContent === 'ПРОФИ') {
+      const dataNew = data.filter(x => x.type === 'prof');
+      setData(dataNew);
+      setType('prof');
+    } else if (e.target.textContent === 'ВСЕ') {
+      setData(data);
+      setType('all');
+    }
+  };
   return (
     <Section>
       <GetTopPictureBox>
@@ -67,19 +92,32 @@ function GetTop() {
             <use href={sprite + '#Slash'} />
           </Slash>
         </GetTopTitleBox>
-        <ChooseImgList>
-          <ChooseImgItem>ВСЕ</ChooseImgItem>
-          <ChooseImgItem>ТУРИСТЫ</ChooseImgItem>
-          <ChooseImgItem>ПРИРОДА</ChooseImgItem>
-          <ChooseImgItem>ПРОФИ</ChooseImgItem>
+        <ChooseImgList onClick={ImgFilter}>
+          <ChooseImgItem
+            style={{ color: type === 'all' ? '#00B2A0' : '#242121' }}
+          >
+            ВСЕ
+          </ChooseImgItem>
+          <ChooseImgItem
+            style={{ color: type === 'tour' ? '#00B2A0' : '#242121' }}
+          >
+            ТУРИСТЫ
+          </ChooseImgItem>
+          <ChooseImgItem
+            style={{ color: type === 'natur' ? '#00B2A0' : '#242121' }}
+          >
+            ПРИРОДА
+          </ChooseImgItem>
+          <ChooseImgItem
+            style={{ color: type === 'prof' ? '#00B2A0' : '#242121' }}
+          >
+            ПРОФИ
+          </ChooseImgItem>
         </ChooseImgList>
         <Gallary>
-          <GallaryImg src={Gal1} />
-          <GallaryImg src={Gal2} />
-          <GallaryImg src={Gal3} />
-          <GallaryImg src={Gal4} />
-          <GallaryImg src={Gal5} />
-          <GallaryImg src={Gal6} />
+          {dat.map(({ id, src }) => (
+            <GallaryImg key={id} src={src} />
+          ))}
         </Gallary>
         <GallaryBtn>ПОКАЗАТЬ ЕЩЕ</GallaryBtn>
       </GalleryBox>

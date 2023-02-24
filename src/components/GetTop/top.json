@@ -1,0 +1,32 @@
+[
+  {
+    "src": "/Wawe/static/media/Gal1.daa96f38bdda95c9863b.jpg",
+    "type": "prof",
+    "id": "1"
+  },
+  {
+    "src": "/Wawe/static/media/Gal2.1c15a4adcbcbc29f4e92.jpg",
+    "type": "tour",
+    "id": "2"
+  },
+  {
+    "src": "/Wawe/static/media/Gal3.c6b8f563de907d65cd1e.jpg",
+    "type": "prof",
+    "id": "3"
+  },
+  {
+    "src": "Gal4",
+    "type": "tour",
+    "id": "4"
+  },
+  {
+    "src": "Gal5",
+    "type": "natur",
+    "id": "5"
+  },
+  {
+    "src": "Gal6",
+    "type": "natur",
+    "id": "6"
+  }
+]
