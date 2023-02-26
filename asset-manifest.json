@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Wawe/static/css/main.7acaea2f.css",
-    "main.js": "/Wawe/static/js/main.8da0e920.js",
+    "main.js": "/Wawe/static/js/main.7434a63d.js",
     "static/media/Wawe.mp4": "/Wawe/static/media/Wawe.cf9031ddb31142a1b18a.mp4",
     "static/media/Main.jpg": "/Wawe/static/media/Main.aa73a2423d271134b317.jpg",
     "static/media/Blog.jpg": "/Wawe/static/media/Blog.c829e290f47ad4902ea5.jpg",
@@ -17,13 +17,13 @@
     "static/media/Gal2.jpg": "/Wawe/static/media/Gal2.1c15a4adcbcbc29f4e92.jpg",
     "static/media/Gal4.jpg": "/Wawe/static/media/Gal4.d1d4b4ed74157e5ed8e8.jpg",
     "static/media/Gal3.jpg": "/Wawe/static/media/Gal3.c6b8f563de907d65cd1e.jpg",
-    "static/media/sprite.svg": "/Wawe/static/media/sprite.ba52025039c434b76fb937e909e437b9.svg",
+    "static/media/sprite.svg": "/Wawe/static/media/sprite.d38b7ce8c33a3a219a2a6bdfc8cc123f.svg",
     "index.html": "/Wawe/index.html",
     "main.7acaea2f.css.map": "/Wawe/static/css/main.7acaea2f.css.map",
-    "main.8da0e920.js.map": "/Wawe/static/js/main.8da0e920.js.map"
+    "main.7434a63d.js.map": "/Wawe/static/js/main.7434a63d.js.map"
   },
   "entrypoints": [
     "static/css/main.7acaea2f.css",
-    "static/js/main.8da0e920.js"
+    "static/js/main.7434a63d.js"
   ]
 }
