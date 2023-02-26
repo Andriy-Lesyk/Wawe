@@ -1,7 +1,7 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.section`
-  padding: 200px 360px;
+  padding: 200px 0;
   display: flex;
   flex-direction: column;
   align-items: center;

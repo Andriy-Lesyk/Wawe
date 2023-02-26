@@ -7,8 +7,9 @@ export const Section = styled.section`
 `;
 export const SectionTitleBox = styled.div`
   margin-bottom: 183px;
+
   display: flex;
-  align-self: center;
+  justify-content: center;
 `;
 export const SectionTitle = styled.h2`
   margin: 0;

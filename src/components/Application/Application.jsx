@@ -34,8 +34,8 @@ function Application() {
       validationSchema={Validation}
     >
       {({ values, handleChange }) => (
-        <Container>
-          <Section>
+        <Section>
+          <Container>
             <SectionTitleBox>
               <SectionTitle>ОСТАВИТЬ ЗАЯВКУ</SectionTitle>
               <Slash>
@@ -110,8 +110,8 @@ function Application() {
                 <SocialLinkName>YOUTUBE</SocialLinkName>
               </SocialLink>
             </SocialLinkBox>
-          </Section>
-        </Container>
+          </Container>
+        </Section>
       )}
     </Formik>
   );

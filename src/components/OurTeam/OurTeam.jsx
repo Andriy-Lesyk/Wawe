@@ -18,15 +18,14 @@ import Cart3 from '../../images/Cart3.jpg';
 
 function OurTeam() {
   return (
-    <Container>
-      <Section>
+    <Section>
+      <Container>
         <SectionTitleBox>
           <SectionTitle>НАША КОМАНДА</SectionTitle>
           <Slash>
             <use href={sprite + '#Slash'} />
           </Slash>
         </SectionTitleBox>
-
         <ImgList>
           <ImgItemCart>
             <CartImg src={Cart1} />
@@ -44,8 +43,8 @@ function OurTeam() {
             <CartPosition>инстуктор</CartPosition>
           </ImgItemCart>
         </ImgList>
-      </Section>
-    </Container>
+      </Container>
+    </Section>
   );
 }
 

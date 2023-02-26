@@ -46,6 +46,7 @@ export const Text = styled.p`
 `;
 export const SectionTitleBox = styled.div`
   display: flex;
+  justify-content: center;
 `;
 export const Slash = styled.svg`
   width: 48px;

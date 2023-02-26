@@ -1,14 +1,14 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.section`
-  padding: 200px 360px;
+  padding: 200px 0;
   background: #f8f8f8;
   display: flex;
   flex-direction: column;
 `;
 export const SectionTitleBox = styled.div`
   display: flex;
-  align-self: center;
+  justify-content: center;
 `;
 export const SectionTitle = styled.h2`
   margin: 0;

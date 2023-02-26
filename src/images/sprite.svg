@@ -42,4 +42,7 @@
    <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 75 88" id="Play">
     <path d="M75 44L0 87.3013L0 0.69873L75 44Z" fill="#373A39"></path>
   </symbol>
+  <symbol fill="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 15 15" id="dot">
+    <circle cx="7.5" cy="7.5" r="7.5" fill="white"></circle>
+  </symbol>
 </svg>

@@ -8,7 +8,7 @@ export const Section = styled.section`
 `;
 export const SectionTitleBox = styled.div`
   display: flex;
-  align-self: center;
+  justify-content: center;
 `;
 export const SectionTitle = styled.h2`
   margin: 0;
@@ -110,9 +110,8 @@ export const FormBtn = styled.button`
 `;
 export const SocialLinkBox = styled.div`
   margin-top: 200px;
-  width: max-content;
   display: flex;
-  align-self: center;
+  justify-content: center;
 `;
 export const SocialLink = styled.a`
   text-decoration: none;

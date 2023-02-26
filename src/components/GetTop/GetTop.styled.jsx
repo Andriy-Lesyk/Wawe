@@ -1,15 +1,17 @@
 import styled from '@emotion/styled';
 
 export const Section = styled.section`
+  padding-bottom: 200px;
+  position: relative;
   margin-top: 332px;
 `;
 export const GetTopPictureBox = styled.div`
   display: flex;
-  margin-left: 360px;
 `;
 
 export const GetTopBox = styled.div`
   margin-top: 200px;
+  width: 50%;
   display: flex;
   flex-direction: column;
 `;
@@ -43,12 +45,13 @@ export const GetTopText = styled.p`
   }
 `;
 export const GetTopImg = styled.img`
-  width: 960px;
-  height: 850px;
-  margin-left: 40px;
+  position: absolute;
+  right: 0;
+  width: 50%;
+  height: 40%;
 `;
 export const GalleryBox = styled.div`
-  padding: 200px 360px;
+  margin-top: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;

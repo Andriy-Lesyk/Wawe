@@ -13,8 +13,8 @@ import sprite from '../../images/sprite.svg';
 
 function AboutSchoool() {
   return (
-    <Container>
-      <Section>
+    <Section>
+      <Container>
         <SectionTitleBox>
           <SectionTitle> О ШКОЛЕ, О СЕРФИНГЕ, О КАНАРАХ </SectionTitle>
           <Slash>
@@ -79,8 +79,8 @@ function AboutSchoool() {
             </Text>
           </TextBox>
         </TextBoxesContainer>
-      </Section>
-    </Container>
+      </Container>
+    </Section>
   );
 }
 
