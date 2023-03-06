@@ -15,6 +15,7 @@ import {
   TextBox,
   Text,
   Svg,
+  Link,
 } from './Header.styled';
 import sprite from '../../images/sprite.svg';
 
@@ -23,7 +24,9 @@ function Header() {
     <Section>
       <Container>
         <HeadContainer>
-          <Img src={Logo} alt="picture" />
+          <Link href="#" name="start">
+            <Img src={Logo} alt="picture" />
+          </Link>
           <Navigation>
             <NavList>
               <NavItem>

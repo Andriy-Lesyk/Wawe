@@ -3,12 +3,22 @@ import Main from '../../images/Main.jpg';
 
 export const Section = styled.section`
   height: 1080px;
-  background-image: linear-gradient(
-      rgba(47, 48, 58, 0.4),
-      rgba(47, 48, 58, 0.4)
-    ),
-    url(${Main});
+  background-image: url(${Main});
   background-size: cover;
+  &::after {
+    content: '';
+    width: 100%;
+    height: 45%;
+    position: absolute;
+    top: 0;
+    background: linear-gradient(
+      180deg,
+      #01353e 0%,
+      rgba(51, 51, 51, 0.595076) 31.64%,
+      rgba(51, 51, 51, 0.222586) 74.35%,
+      rgba(51, 51, 51, 0) 99.87%
+    );
+  }
 `;
 
 export const Img = styled.img`
@@ -21,7 +31,9 @@ export const Img = styled.img`
   }
 `;
 
-export const Navigation = styled.nav``;
+export const Navigation = styled.nav`
+  z-index: 10;
+`;
 export const NavList = styled.ul`
   margin: 0;
   padding: 0;
@@ -82,4 +94,8 @@ export const Svg = styled.svg`
   margin: 315px auto;
   width: 20px;
   height: 69px;
+`;
+export const Link = styled.a`
+  text-decoration: none;
+  z-index: 10;
 `;

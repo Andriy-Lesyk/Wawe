@@ -1,6 +1,7 @@
 import styled from '@emotion/styled';
 import Blog from '../../images/Blog.jpg';
 import { BsFillCircleFill } from 'react-icons/bs';
+import { RiArrowLeftSLine, RiArrowRightSLine } from 'react-icons/ri';
 
 export const Section = styled.section`
   display: flex;
@@ -52,9 +53,7 @@ export const ImgText = styled.span`
 export const ImgTextBox = styled.div`
   display: flex;
   flex-direction: column;
-  align-self: flex-end;
   width: 600px;
-  margin: 314px 360px 0 0;
 `;
 export const SliderDotsList = styled.ol`
   margin: 259px auto 0;
@@ -73,6 +72,23 @@ export const SliderDotItem = styled.li`
 export const SliderDotImg = styled(BsFillCircleFill)`
   width: 15px;
   height: 15px;
-  fill: #00b2a0;
   border-radius: 50%;
+`;
+export const ArLeft = styled(RiArrowLeftSLine)`
+  width: 50px;
+  height: 100px;
+  fill: #fff;
+  margin-right: 15px;
+`;
+export const ArRight = styled(RiArrowRightSLine)`
+  width: 50px;
+  height: 100px;
+  fill: #fff;
+`;
+export const SliderBox = styled.div`
+  display: flex;
+  width: 700px;
+  justify-content: space-between;
+  align-self: flex-end;
+  margin: 314px 360px 0 0;
 `;

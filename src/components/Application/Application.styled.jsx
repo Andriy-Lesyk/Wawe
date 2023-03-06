@@ -68,6 +68,7 @@ export const Input = styled(Field)`
   &:hover,
   &:focus {
     border-bottom: 2px solid;
+    cursor: pointer;
   }
 `;
 export const Message = styled.textarea`
@@ -76,6 +77,7 @@ export const Message = styled.textarea`
   border: transparent;
   border-bottom: 1px solid #dadada;
   margin-top: 53px;
+  resize: none;
   &::placeholder {
     font-family: 'Roboto Condensed';
     font-style: normal;
@@ -89,6 +91,7 @@ export const Message = styled.textarea`
   &:hover,
   &:focus {
     border-bottom: 2px solid;
+    cursor: pointer;
   }
 `;
 export const FormBtn = styled.button`
@@ -106,6 +109,7 @@ export const FormBtn = styled.button`
   &:hover,
   &:focus {
     border: 2px solid;
+    cursor: pointer;
   }
 `;
 export const SocialLinkBox = styled.div`

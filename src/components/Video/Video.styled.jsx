@@ -40,4 +40,7 @@ export const StatName = styled.span`
 export const Vid = styled.video`
   width: 1200px;
   height: 600px;
+  &:hover {
+    cursor: pointer;
+  }
 `;

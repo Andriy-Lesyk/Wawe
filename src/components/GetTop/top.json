@@ -2,31 +2,31 @@
   {
     "src": "/Wawe/static/media/Gal1.daa96f38bdda95c9863b.jpg",
     "type": "prof",
-    "id": "1"
+    "id": "10"
   },
   {
     "src": "/Wawe/static/media/Gal2.1c15a4adcbcbc29f4e92.jpg",
     "type": "tour",
-    "id": "2"
+    "id": "20"
   },
   {
     "src": "/Wawe/static/media/Gal3.c6b8f563de907d65cd1e.jpg",
     "type": "prof",
-    "id": "3"
+    "id": "30"
   },
   {
     "src": "Gal4",
     "type": "tour",
-    "id": "4"
+    "id": "40"
   },
   {
     "src": "Gal5",
     "type": "natur",
-    "id": "5"
+    "id": "50"
   },
   {
     "src": "Gal6",
     "type": "natur",
-    "id": "6"
+    "id": "60"
   }
 ]

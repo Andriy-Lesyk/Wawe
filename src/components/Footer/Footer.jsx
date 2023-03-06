@@ -1,11 +1,13 @@
 import React from 'react';
-import { Footr, Logo } from './Footer.styled';
+import { Footr, Logo, Link } from './Footer.styled';
 import Log from '../../images/Logo.png';
 
 function Footer() {
   return (
     <Footr>
-      <Logo src={Log} />
+      <Link href="#start">
+        <Logo src={Log} />
+      </Link>
     </Footr>
   );
 }

@@ -15,3 +15,6 @@ export const Logo = styled.img`
     border-bottom: 2px solid red;
   }
 `;
+export const Link = styled.a`
+  text-decoration: none;
+`;

@@ -56,13 +56,30 @@ export const GalleryBox = styled.div`
   flex-direction: column;
   align-items: center;
 `;
-export const Gallary = styled.div``;
-export const GallaryImg = styled.img`
+export const Gallary = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+`;
+export const GallaryImg = styled.img``;
+export const Wrap = styled.div`
+  position: relative;
   &:not(:nth-child(3n)) {
     margin-right: 40px;
   }
   &:nth-last-child(-n + 3) {
     margin-top: 40px;
+  }
+  display: flex;
+  &::after {
+    content: '';
+    background: rgba(51, 51, 51, 0.7);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    opacity: 0;
+  }
+  &:hover::after {
+    opacity: 1;
   }
 `;
 export const GallaryBtn = styled.button`
@@ -80,6 +97,7 @@ export const GallaryBtn = styled.button`
   &:hover,
   &:focus {
     border: 2px solid;
+    cursor: pointer;
   }
 `;
 export const ChooseImgList = styled.ul`
@@ -104,5 +122,6 @@ export const ChooseImgItem = styled.li`
   &:hover,
   &:focus {
     color: #00b2a0;
+    cursor: pointer;
   }
 `;

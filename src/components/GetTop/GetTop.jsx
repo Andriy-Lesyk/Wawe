@@ -13,6 +13,7 @@ import {
   GallaryBtn,
   ChooseImgList,
   ChooseImgItem,
+  Wrap,
 } from './GetTop.styled';
 import { Slash } from 'components/AboutSchool/AboutSchool.styled';
 import sprite from '../../images/sprite.svg';
@@ -118,7 +119,9 @@ function GetTop() {
           </ChooseImgList>
           <Gallary>
             {dat.map(({ id, src }) => (
-              <GallaryImg key={id} src={src} />
+              <Wrap>
+                <GallaryImg key={id} src={src} />
+              </Wrap>
             ))}
           </Gallary>
           <GallaryBtn>ПОКАЗАТЬ ЕЩЕ</GallaryBtn>
