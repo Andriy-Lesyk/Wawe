@@ -24,12 +24,10 @@ function Blog() {
   const arr = [...arr1];
 
   const [text, setText] = useState(arr[0]);
-  const [targ, setTarg] = useState(0);
 
   const handleSlide = e => {
     if (typeof e.target.parentElement.parentElement.value === 'number') {
       setText(arr[e.target.parentElement.parentElement.value]);
-      setTarg(e.target.parentElement.parentElement.value);
     }
   };
   const handleRight = e => {
@@ -72,11 +70,11 @@ function Blog() {
         </SliderBox>
 
         <SliderDotsList start="0" onClick={handleSlide}>
-          {data.map(({ tex, id }, i) => (
+          {data.map(({ id }, i) => (
             <SliderDotItem key={id} value={i}>
               <SliderDotImg
                 style={{
-                  fill: text === arr[id - 1] ? '#00B2A0' : '#fff',
+                  fill: text === arr[i] ? '#00B2A0' : '#fff',
                 }}
               />
             </SliderDotItem>
